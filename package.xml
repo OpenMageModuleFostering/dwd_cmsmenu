@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package>
+    <name>DwD_CmsMenu</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/afl-3.0.php">Academic Free License (AFL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Include and manage CMS pages link in the top navigation.</summary>
+    <description>&lt;h1&gt;DwDeveloper - CMS Menu&lt;/h1&gt;&#xD;
+&lt;h2&gt;Features&lt;/h2&gt;&#xD;
+&lt;p&gt;DwD - CMS Menu allows you to include CMS pages links and set them in any order in the top navigation.&lt;/p&gt;&#xD;
+&lt;h3&gt;About the extension&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+The extension will create a new table to save the pages menu configuration and include the links with an observer.&lt;br/&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+Extension features:&lt;br/&gt;&#xD;
+&lt;ul&gt;&#xD;
+    &lt;li&gt;Enable / disable the extension.&lt;/li&gt;&#xD;
+    &lt;li&gt;Configure a custom label for the page link in the menu.&lt;/li&gt;&#xD;
+    &lt;li&gt;Set the menu item order.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;How this extension will help you?&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+Dis you ever try to include a CMS page in the top menu?&lt;br/&gt;&#xD;
+There's nothing easy on that and you will read about two common options: follow around 20 steps in the Magento Admin features (that will involve creata a category, a custom redirect, etc.), or do it by code.&lt;br/&gt;&#xD;
+This will make everything easier and you will get everything working in a few clicks.&#xD;
+&lt;/p&gt;&#xD;
+&lt;h2&gt;How it works? Use it in simple steps:&lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Go to System / Configuration / DwD Extensions / CMS Menu&lt;/li&gt;&#xD;
+&lt;li&gt;Enable the extension&lt;/li&gt;&#xD;
+&lt;li&gt;Save the configuration&lt;/li&gt;&#xD;
+&lt;li&gt;Go to CMS / CMS Pages&lt;/li&gt;&#xD;
+&lt;li&gt;Edit the page you want to include in the top menu&lt;/li&gt;&#xD;
+&lt;li&gt;Specify the top menu item configuration.&lt;/li&gt;&#xD;
+&lt;li&gt;Save the CMS page&lt;/li&gt;&#xD;
+&lt;li&gt;Enjoy!&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;h2&gt;Supported versions&lt;/h2&gt;&#xD;
+&lt;p&gt;Magento 1.8 to 1.9.x.&lt;/p&gt;&#xD;
+&lt;h2&gt;Support&lt;/h2&gt;&#xD;
+&lt;p&gt;For support, contact us at &lt;a href="mailto:info@dwdeveloper.com"&gt;info@dwdeveloper.com&lt;/a&gt;&lt;/p&gt;</description>
+    <notes>First release.</notes>
+    <authors><author><name>Damian A. Pastorini</name><user>MAG002087848</user><email>damian.pastorini@dwdeveloper.com</email></author></authors>
+    <date>2015-09-13</date>
+    <time>18:49:49</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="DwD_CmsMenu.xml" hash="9b1288160fc81a13f811056ca9f49123"/></dir></target><target name="magecommunity"><dir name="DwD"><dir name="CmsMenu"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><dir name="Edit"><dir name="Tab"><file name="Content.php" hash="3694e6d33bae1c5db9ca91163523f357"/></dir></dir></dir></dir></dir><dir name="Page"><dir name="Html"><dir name="Topmenu"><file name="Observer.php" hash="fd1a67f069d30dd2e72a89fd2468c95f"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="531295ed2a3e9dba53f54f828f9604d4"/></dir><dir name="Model"><file name="Cmsmenu.php" hash="27a1044475f1a225142baa025051b5fb"/><dir name="Mysql4"><dir name="Cmsmenu"><file name="Collection.php" hash="d53ae01bcbec3719de7c5f2653b2790c"/></dir><file name="Cmsmenu.php" hash="f317ca72b5de8d0cf7a018b4deb8cdb8"/></dir><file name="Observer.php" hash="d54cb67ddbb1f7edc653ab21f094898d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a47c8fe2ed9bdcc5a91595d9f633397e"/><file name="config.xml" hash="1e125384ab70caa64a32edb4ad9839a6"/><file name="system.xml" hash="451a0ce59858b7d11d2606ae69580262"/></dir><dir name="sql"><dir name="cmsmenu_setup"><file name="mysql4-install-0.1.0.php" hash="73444ae647df8d06aed1530be2d85621"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
