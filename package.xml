@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>DwD_CmsMenu</name>
-    <version>0.1.4</version>
+    <version>0.1.5</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/afl-3.0.php">Academic Free License (AFL 3.0)</license>
     <channel>community</channel>
@@ -47,12 +47,13 @@ With this extension everything will be much easier and you will get everything w
 &lt;p&gt;For support, contact us at &lt;a href="mailto:info@dwdeveloper.com"&gt;info@dwdeveloper.com&lt;/a&gt;&lt;/p&gt;&#xD;
 &lt;p&gt;You can also get the extension from our GitHub repository: &lt;a href="https://github.com/damian-pastorini/DwD-Mage-Extension-CMS-Menu" target="_blank"&gt;https://github.com/damian-pastorini/DwD-Mage-Extension-CMS-Menu&lt;/a&gt;.&lt;/p&gt;&#xD;
 &lt;p&gt;Please feel free to report any issues there.&lt;/p&gt;</description>
-    <notes>- Added level field to the cmsmenu table.&#xD;
-- Fixed child assignment issue.</notes>
+    <notes>- Fixed tables creation for implementations with tables prefix.&#xD;
+- Added the option to disable the "View All" link.&#xD;
+- Added custom events for 3rd party integrations.</notes>
     <authors><author><name>Damian A. Pastorini</name><user>MAG002087848</user><email>damian.pastorini@dwdeveloper.com</email></author></authors>
-    <date>2015-10-13</date>
-    <time>23:23:53</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="DwD_CmsMenu.xml" hash="9b1288160fc81a13f811056ca9f49123"/></dir></target><target name="magecommunity"><dir name="DwD"><dir name="CmsMenu"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><dir name="Edit"><dir name="Tab"><file name="Content.php" hash="3694e6d33bae1c5db9ca91163523f357"/></dir></dir></dir></dir></dir><dir name="Page"><dir name="Html"><dir name="Topmenu"><file name="Observer.php" hash="4bfd9dfc6732b1fe8093c025c135a6cf"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="939ba6a32fbbbad3d81be3812fd5dd20"/></dir><dir name="Model"><file name="Cmsmenu.php" hash="27a1044475f1a225142baa025051b5fb"/><dir name="Mysql4"><dir name="Cmsmenu"><file name="Collection.php" hash="6ef952b4fe717960250ea4c3784ca4da"/></dir><file name="Cmsmenu.php" hash="f317ca72b5de8d0cf7a018b4deb8cdb8"/></dir><file name="Observer.php" hash="b40b421086bb3afddd169b1c992e6b5d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a47c8fe2ed9bdcc5a91595d9f633397e"/><file name="config.xml" hash="4288d059c2bd1377674fde2c364f3dcf"/><file name="system.xml" hash="6d644417492685a439629dfb59ef6051"/></dir><dir name="sql"><dir name="cmsmenu_setup"><file name="mysql4-install-0.1.0.php" hash="f7917d067ce6b37abca95c3d9a15afbe"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="f7917d067ce6b37abca95c3d9a15afbe"/><file name="mysql4-upgrade-0.1.1-0.1.2.php" hash="f7917d067ce6b37abca95c3d9a15afbe"/><file name="mysql4-upgrade-0.1.2-0.1.3.php" hash="bbe36b889cfe7b582ff763e8a4c981eb"/><file name="mysql4-upgrade-0.1.3-0.1.4.php" hash="98be2360182089f7a3bf67b6c081a34a"/></dir></dir></dir></dir></target></contents>
+    <date>2015-12-03</date>
+    <time>00:01:16</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="DwD_CmsMenu.xml" hash="9b1288160fc81a13f811056ca9f49123"/></dir></target><target name="magecommunity"><dir name="DwD"><dir name="CmsMenu"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><dir name="Edit"><dir name="Tab"><file name="Content.php" hash="61f83fea6b53b767897b47be1f6b2577"/></dir></dir></dir></dir></dir><dir name="Page"><dir name="Html"><dir name="Topmenu"><file name="Observer.php" hash="9ff5ebd23574dd779871cab796b592a4"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="939ba6a32fbbbad3d81be3812fd5dd20"/></dir><dir name="Model"><file name="Cmsmenu.php" hash="27a1044475f1a225142baa025051b5fb"/><dir name="Mysql4"><dir name="Cmsmenu"><file name="Collection.php" hash="392f767ff63127c85424195e281385ea"/></dir><file name="Cmsmenu.php" hash="f317ca72b5de8d0cf7a018b4deb8cdb8"/></dir><file name="Observer.php" hash="feacfb1e46c6de805d9c7001341dc03d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a47c8fe2ed9bdcc5a91595d9f633397e"/><file name="config.xml" hash="a2ec48afae39b5e6059569851c8ee1c5"/><file name="system.xml" hash="fe859d449fb22b06697e35a0c2a65436"/></dir><dir name="sql"><dir name="cmsmenu_setup"><file name="mysql4-install-0.1.0.php" hash="f7917d067ce6b37abca95c3d9a15afbe"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="f7917d067ce6b37abca95c3d9a15afbe"/><file name="mysql4-upgrade-0.1.1-0.1.2.php" hash="f7917d067ce6b37abca95c3d9a15afbe"/><file name="mysql4-upgrade-0.1.2-0.1.3.php" hash="bbe36b889cfe7b582ff763e8a4c981eb"/><file name="mysql4-upgrade-0.1.3-0.1.4.php" hash="98be2360182089f7a3bf67b6c081a34a"/><file name="mysql4-upgrade-0.1.4-0.1.5.php" hash="751a920617bc3d0195f7ffc8bee82b3c"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="dwd"><dir name="cmsmenu"><dir name="page"><dir name="html"><dir name="topmenu"><file name="renderer.phtml" hash="3c3640ffe3e3df118c44ece987f46c0c"/></dir></dir></dir></dir></dir></dir><dir name="layout"><file name="dwd_cmsmenu.xml" hash="e868e3defe367d42ede9fa8c1e368576"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
