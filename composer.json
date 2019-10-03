@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/DwD_CmsMenu",
+    "name": "OpenMageModuleFostering\/DwD_CmsMenu",
     "type": "magento-module",
     "license": "Academic-Free-License-(AFL-3.0)",
     "homepage": "",
     "description": "Include and manage CMS pages link in the top navigation.",
     "authors": [
-    {
-        "name": "Damian A. Pastorini",
-        "email": "damian.pastorini@dwdeveloper.com"
-    }
-],
+        {
+            "name": "Damian A. Pastorini",
+            "email": "damian.pastorini@dwdeveloper.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
